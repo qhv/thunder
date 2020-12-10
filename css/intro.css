@@ -1,0 +1,22 @@
+.intro {
+  background-image: url("../images/thunder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  padding: 60px;
+}
+
+.intro-logo {
+  width: 100px;
+}
+
+.intro .text-lead {
+  color: #7fffd4;
+  max-width: 70%;
+  margin: 0 15%;
+}
+
+.intro .title-large {
+  color: cyan;
+}

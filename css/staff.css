@@ -1,0 +1,32 @@
+.member-details {
+  display: inline-block;
+  margin-left: 20px;
+  max-width: 200px;
+}
+
+.member-details .text-medium {
+  margin-bottom: 20px;
+}
+
+.member-image {
+  display: inline-block;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.member-photo {
+  border: 5px solid #ff8c00;
+  border-radius: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.staff {
+  padding: 40px 0;
+  background: #e0ffff;
+}
+
+.staff-members {
+  padding-top: 40px;
+}
