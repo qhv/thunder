@@ -6,7 +6,7 @@
 
   <title>Молния</title>
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;    0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/text.css">
@@ -15,17 +15,44 @@
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/features.css">
 
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/header.css">
+
   <link rel="stylesheet" href="css/reviews.css">
   <link rel="stylesheet" href="css/prices.css">
   <link rel="stylesheet" href="css/staff.css">
 </head>
 <body>
-<header>
-  Порази всех молнией
+<header class="header">
+  <div class="container">
+    <div class="header-logo">
+      <img class="header-logo-image" src="images/molniec.png" alt="Молниец"/>
+    </div>
+
+    <nav class="header-nav">
+      <ul>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#intro">О нас</a>
+        </li>
+
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#staff">Команда</a>
+        </li>
+
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#reviews">Отзывы</a>
+        </li>
+
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#prices">Купить</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
-<div class="intro text-center">
+<div class="intro text-center" id="intro">
   <img class="intro-logo" src="images/logo.png" alt="Сверкающая молния">
 
   <h1 class="title-large">Молнии наша жизнь!</h1>
@@ -77,7 +104,7 @@
   </div>
 </div>
 
-<div class="staff">
+<div class="staff" id="staff">
   <div class="container">
     <div class="text-center">
       <h2 class="title-medium">
@@ -119,7 +146,7 @@
   </div>
 </div>
 
-<div class="reviews">
+<div class="reviews" id="reviews">
   <div class="container">
     <div class="review">
       <img class="review-photo" src="images/rumyantsev.png" alt="Румянцев">
@@ -145,7 +172,7 @@
   </div>
 </div>
 
-<div class="buffer-both container text-center">
+<div class="container prices text-center" id="prices">
   <div class="prices-header">
     <h2 class="title-medium">Молнии почти даром!</h2>
 
@@ -164,7 +191,7 @@
       <div class="fare-composition">
         <ul>
           <li class="fare-composition-item">1 молния</li>
-          <li class="fare-composition-item">1 зарядка</li>
+          <li class="fare-composition-item">1 колчан</li>
           <li class="fare-composition-item">1 год гарантии</li>
           <li class="fare-composition-item">Доставка 100&nbsp;₽</li>
         </ul>
@@ -176,7 +203,7 @@
 
       <div class="fare-footer">
         <div class="fare-order">
-          <a class="button button-green" href="#">Заказать</a>
+          <a class="button button-rufous" href="#">Заказать</a>
         </div>
       </div>
     </div>
@@ -204,7 +231,7 @@
 
       <div class="fare-footer">
         <div class="fare-order">
-          <a class="button button-green" href="#">Заказать</a>
+          <a class="button button-rufous" href="#">Заказать</a>
         </div>
       </div>
     </div>
@@ -232,19 +259,23 @@
 
       <div class="fare-footer">
         <div class="fare-order">
-          <a class="button button-green" href="#">Заказать</a>
+          <a class="button button-rufous" href="#">Заказать</a>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<footer>
-  Если у вас остались вопросы, то с нетерпением и с молиней в руках готовы ответить.
-  Наши контакты
-  гора Олимп, третий чертог справа
-  тел. Call-to_Zeus
-  email: zeus@olimp.gr
+<footer class="container footer">
+  <h3 class="title-small">Наши контакты:</h3>
+
+  <div class="footer-contacts">
+    <ul>
+      <li class="footer-contacts-item">гора Олимп, третий чертог справа</li>
+      <li class="footer-contacts-item">&phone;&nbsp;Call-to_Zeus</li>
+      <li class="footer-contacts-item">&#9993;&nbsp;zeus@olimp.gr</li>
+    </ul>
+  </div>
 </footer>
 </body>
 </html>

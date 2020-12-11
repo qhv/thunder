@@ -30,3 +30,17 @@
   float: left;
   width: 33.33%;
 }
+
+@media (max-width: 770px) {
+  .column-1-3 {
+    float: none;
+    width: auto;
+  }
+}
+
+@media (max-width: 660px) {
+  .column-1-2 {
+    float: none;
+    width: auto;
+  }
+}

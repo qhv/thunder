@@ -1,0 +1,17 @@
+.footer {
+  color: #0cc;
+  padding: 20px 30px;
+}
+
+.footer-contacts {
+  float: right;
+  line-height: 30px;
+  vertical-align: baseline;
+}
+
+.footer-contacts-item {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0 16px;
+}

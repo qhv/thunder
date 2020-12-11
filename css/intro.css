@@ -4,7 +4,8 @@
   background-repeat: no-repeat;
   background-position: center top;
 
-  padding: 60px;
+  margin-top: 80px;
+  padding: 40px;
 }
 
 .intro-logo {
@@ -19,4 +20,10 @@
 
 .intro .title-large {
   color: cyan;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    margin-top: 0;
+  }
 }
