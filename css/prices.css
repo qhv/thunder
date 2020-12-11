@@ -1,0 +1,36 @@
+.fare {
+  color: #2caffb;
+  margin: auto;
+  width: 90%;
+}
+
+.fare-footer {
+  background: #31956f;
+  border-radius: 0 0 10px 10px;
+  padding: 20px 0 30px;
+}
+
+.fare-head {
+  background: #31956f;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 0 10px;
+}
+
+.fare-composition {
+  background: #8ceeee;
+  margin-bottom: -12px;
+  padding: 20px 0;
+}
+
+.fare-composition-item {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.fare-price {
+  padding-top: 16px;
+}
+
+.prices-header {
+  margin-bottom: 20px;
+}
