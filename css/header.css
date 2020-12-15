@@ -33,6 +33,11 @@
   text-decoration: none;
 }
 
+.header-nav-link:hover {
+  color: #0c4957;
+  transition: all 0.5s;
+}
+
 @media (max-width: 600px) {
   .header {
     opacity: 1;

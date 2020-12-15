@@ -10,6 +10,7 @@
 }
 
 .footer-contacts-item {
+  cursor: pointer;
   display: inline-block;
   list-style: none;
   margin: 0;

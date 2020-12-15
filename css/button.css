@@ -8,12 +8,22 @@
   text-shadow: 2px 2px 2px rgba(0, 139, 139, 0.3);
 }
 
+.button-orange {
+  background: #ffa500;
+  color: #008b8b;
+}
+
+.button-orange:hover {
+  background: #d0870e;
+  transition: all 1s;
+}
+
 .button-rufous {
   background: #ffe5b4;
   color: #b7410e;
 }
 
-.button-orange {
-  background: #ffa500;
-  color: #008b8b;
+.button-rufous:hover {
+  background: #d0bb93;
+  transition: all 1s;
 }
